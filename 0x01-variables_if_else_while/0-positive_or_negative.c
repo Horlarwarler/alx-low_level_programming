@@ -3,7 +3,7 @@
 #include <time.h>
 /**
 * main - Determine if a random number is positive, negative or zero
-* Return - Always 0 (Success)
+* Return: 0 on success
 */
 int main(void)
 {
@@ -12,15 +12,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-  printf("%d is %n\n", n, "positive");
+printf("%d is %n\n", n, "positive");
 }
 else if (n < 0)
 {
-  printf("%d is %n\n",n ,"negative");
+printf("%d is %n\n", n, "negative");
 }
 else
 {
-  printf("%d is %n",n,"zero");
+printf("%d is %n\n", n, "zero");
 }
 return (0);
 }
