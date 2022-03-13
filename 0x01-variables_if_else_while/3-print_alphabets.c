@@ -14,10 +14,11 @@ while (c <= 'z')
 putchar(c);
 c++;
 }
-while (C <='Z')
+while (C <= 'Z')
 {
 putchar(C);
 C++;
+}
 putchar('\n');
 return (0);
 }
