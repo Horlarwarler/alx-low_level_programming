@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+* main - Determine if a random number is positive, negative or zero
+* Return: 0 on success
+*/
+int main(void)
+{
+long counter;
+int separator = 1;
+int value; 
+for (counter = 0; counter < 100; counter++)
+{
+if( counter < 10)
+{
+value = (counter/10) % 10;
+}
+else
+{
+value = counter / 10;
+}
+putchar(value + '0');
+if (separator == 1)
+{
+putchar(32);
+separator++;    
+}
+else if (separator == 2)
+{   
+putchar(44);
+separator = 1; 
+}
+}
+putchar('\n');
+return (0);
+}

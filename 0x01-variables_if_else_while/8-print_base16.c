@@ -1,22 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
-* main - Determine if a random number is positive, negative or zero
-* Return: 0 on success
-*/
+ * main - main block
+ * Description: Print all numbers of base64 in lowercase.
+ * You can only use `putchar`, and only 3 times.
+ * Return: 0
+ */
 int main(void)
 {
-int i;
-char c;
-for (i = 0; i < 10; i++)
-{
-putchar(i + '0');
-}
-for (c = 'a'; c < 'g'; c++)
-{
-putchar(c);
-}
-putchar('\n');
-return (0);
+	char c;
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
+	for (c = 'a'; c < 'g'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+
+	return (0);
 }
