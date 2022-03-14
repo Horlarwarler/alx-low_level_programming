@@ -1,2 +1,2 @@
-This is the readme file
-it contains the
+This directory contains my first project on C-programming.
+Hello World
