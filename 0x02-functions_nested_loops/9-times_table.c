@@ -27,7 +27,7 @@ void times_table(void)
 				_putchar(result + '0');
 			}
 			col++;
-			if (col != 9)
+			if (col <= 9)
 			{
 			_putchar(44);
 			_putchar(32);
