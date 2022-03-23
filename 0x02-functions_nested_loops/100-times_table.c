@@ -28,12 +28,12 @@ void print_times_table(int n)
 			{
 				_putchar(result + '0');
 			}
-			col++;
 			if (col < n)
 			{
 			_putchar(44);
 			_putchar(9);
 			}
+			col++;
 		}
 	_putchar('\n');
 	row++;
