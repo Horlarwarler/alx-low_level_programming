@@ -1,19 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: Use `putchar` function to print the alphabet in lowercase.
- * Return: 0
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	char ch;
 
-	while (c <= 'z')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
 	}
 	putchar('\n');
-
 	return (0);
 }

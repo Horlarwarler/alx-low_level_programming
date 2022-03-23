@@ -1,2 +1,1 @@
-This is a readme file and it contains the 
-
+File 0-putchar.c writes a program that prints _putchar . follow by a new line
