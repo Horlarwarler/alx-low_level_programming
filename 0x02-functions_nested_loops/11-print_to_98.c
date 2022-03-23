@@ -32,6 +32,8 @@ void print_to_98(int n)
 		_putchar(n + '0');
 	}
 	n += counting;
+	_putchar(44);
+	_putchar(32);
 	}
 	_putchar('\n');
 }

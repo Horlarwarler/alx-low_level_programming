@@ -1,20 +1,26 @@
 #include "main.h"
 /**
- *times_table - The main fucnction
- *description: Print time table
+ *print_times_table - The main fucnction
+ *@n: Parameter
  *Return: Timetabel
 */
-void times_table(void)
+int print_times_table(int n)
 {
+	if (n <= 0 || n >= 15)
+	{
+		return (0);
+	}
+	else
+	{
 	int row = 0;
 
 	int result;
 
-	while (row < 10)
+	while (row != n)
 	{
 		int col = 0;
 
-		while (col < 10)
+		while (col != n)
 		{
 			result = col * row;
 			if (result > 9)
@@ -34,4 +40,6 @@ void times_table(void)
 	row++;
 	}
 	_putchar('\n');
+	return (0);
+	}
 }
