@@ -12,7 +12,7 @@ void print_times_table(int n)
 
 	int result;
 
-	while (row != n)
+	while (row <= n)
 	{
 		int col = 0;
 
@@ -31,7 +31,7 @@ void print_times_table(int n)
 			if (col < n)
 			{
 			_putchar(44);
-			_putchar(9);
+			_putchar(32);
 			}
 			col++;
 		}
