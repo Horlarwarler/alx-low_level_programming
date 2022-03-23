@@ -12,12 +12,11 @@ void print_times_table(int n)
 
 	int result;
 
-	n = n + 1;
 	while (row != n)
 	{
 		int col = 0;
 
-		while (col != n)
+		while (col <= n)
 		{
 			result = col * row;
 			if (result > 9)
@@ -30,7 +29,7 @@ void print_times_table(int n)
 				_putchar(result + '0');
 			}
 			col++;
-			if (col < (n - 1))
+			if (col < n)
 			{
 			_putchar(44);
 			_putchar(9);
