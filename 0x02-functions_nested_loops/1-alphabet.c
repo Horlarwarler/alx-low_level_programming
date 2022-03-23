@@ -1,4 +1,4 @@
-#include<holberton.h>
+#include<main.h>
 /**
  * print_alphabet- This contains the main file
  * description: This print outs putchar
