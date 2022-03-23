@@ -12,6 +12,7 @@ void print_times_table(int n)
 
 	int result;
 
+	n = n + 1;
 	while (row != n)
 	{
 		int col = 0;
