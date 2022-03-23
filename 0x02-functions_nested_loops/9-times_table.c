@@ -27,8 +27,11 @@ void times_table(void)
 				_putchar(result + '0');
 			}
 			col++;
+			if (col != 9)
+			{
 			_putchar(44);
 			_putchar(32);
+			}
 		}
 	_putchar('\n');
 	row++;
