@@ -30,8 +30,11 @@ void print_times_table(int n)
 				_putchar(result + '0');
 			}
 			col++;
+			if (col < (n - 1))
+			{
 			_putchar(44);
-			_putchar(32);
+			_putchar(9);
+			}
 		}
 	_putchar('\n');
 	row++;
